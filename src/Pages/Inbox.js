@@ -68,7 +68,7 @@ const Inbox = (props) => {
 
         const deleteMailHandler = async () => {
             
-   
+//    
             let delRes =await sendRequest(userEmail,{type:'delete'},email)
             
            if (delRes.statusText==='OK'){
